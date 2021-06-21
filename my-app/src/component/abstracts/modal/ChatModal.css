@@ -1,0 +1,14 @@
+.spa-shell-modal {
+  position: absolute;
+}
+.spa-shell-modal {
+  margin-top: -200px;
+  margin-left: -200px;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  border-radius: 3px;
+  z-index: 1;
+}

@@ -1,0 +1,11 @@
+.spa-shell-chat {
+  position: absolute;
+}
+.spa-shell-chat {
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 15px;
+  background: red;
+  z-index: 2;
+}

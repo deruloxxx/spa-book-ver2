@@ -1,0 +1,10 @@
+.spa-shell-foot {
+  position: absolute;
+}
+
+.spa-shell-foot {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+}

@@ -2,22 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06bb1684-4308-45fc-b195-09d9707dcd3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/abstracts/modal/ChatModal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orgs/ChatSlider/ChatSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orgs/ChatSlider/ChatSlider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatContainer/ChatContainer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatContainer/ChatContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatFooter/ChatFooter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatFooter/ChatFooter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatHeader/ChatHeader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatHeader/ChatHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatMain/ChatMain.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatMain/ChatMain.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/template/Chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/template/Chat.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -33,13 +46,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,7 +64,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624199162642</updated>
-      <workItem from="1624199167767" duration="3377000" />
+      <workItem from="1624199167767" duration="4046000" />
+      <workItem from="1624285867335" duration="5171000" />
     </task>
     <servers />
   </component>
@@ -67,5 +82,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
