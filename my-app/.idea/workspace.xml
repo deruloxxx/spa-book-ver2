@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="06bb1684-4308-45fc-b195-09d9707dcd3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/abstracts/modal/ChatModal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orgs/ChatSlider/ChatSlider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orgs/ChatSlider/ChatSlider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatContainer/ChatContainer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatContainer/ChatContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatFooter/ChatFooter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatFooter/ChatFooter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatHeader/ChatHeader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatHeader/ChatHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatMain/ChatMain.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/orgs/chatMain/ChatMain.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/template/Chat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/template/Chat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/abstracts/chatContext/ChatContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/abstracts/chatContext/ChatProvider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/orgs/ChatSlider/ChatSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orgs/chatSlider/ChatSlider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/orgs/ChatSlider/ChatSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orgs/chatSlider/ChatSlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/orgs/chatMain/ChatMain.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/orgs/chatMain/ChatMain.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/template/Chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/template/Chat.tsx" afterDir="false" />
+    </list>
+    <list id="7e411f74-473d-43e6-b57b-c9cd5070f196" name="Changes by user" comment="">
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,13 +24,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1uDTSv8RFms2UHS0dR6A0cCjBzA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,6 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -65,7 +72,10 @@
       <option name="presentableId" value="Default" />
       <updated>1624199162642</updated>
       <workItem from="1624199167767" duration="4046000" />
-      <workItem from="1624285867335" duration="5171000" />
+      <workItem from="1624285867335" duration="5397000" />
+      <workItem from="1624603864221" duration="6506000" />
+      <workItem from="1624637057825" duration="158000" />
+      <workItem from="1624698406437" duration="13668000" />
     </task>
     <servers />
   </component>

@@ -1,11 +1,15 @@
 import './App.css';
-import { Chat } from './component/template/Chat';
+import {Chat} from './component/template/Chat';
+import React, {createContext, ReactNode} from 'react'
+import ChatProvider from './component/abstracts/chatContext/ChatProvider';
 
 function App() {
   return (
-    <div>
-      <Chat/>
-    </div>
+    <ChatProvider>
+      <div>
+        <Chat/>
+      </div>
+    </ChatProvider>
   );
 }
 
