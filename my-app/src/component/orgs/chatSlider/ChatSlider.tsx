@@ -1,6 +1,6 @@
 // @flow
 import * as React from 'react';
-import {useState, createContext, useContext, useEffect} from 'react';
+import { useContext } from 'react';
 import { chatContext, Status } from '../../abstracts/chatContext/ChatContext';
 import './ChatSlider.css';
 

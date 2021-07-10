@@ -1,6 +1,6 @@
 import './App.css';
 import {Chat} from './component/template/Chat';
-import React, {createContext, ReactNode} from 'react'
+import React from 'react';
 import ChatProvider from './component/abstracts/chatContext/ChatProvider';
 
 function App() {
