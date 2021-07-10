@@ -8,7 +8,7 @@ export const ChatSlider = () => {
   const chatCxt = useContext(chatContext)
 
   const toggleChatSlider = () => {
-    chatCxt.update(chatCxt.current === Status.CLOSE ? Status.OPEN : Status.CLOSE)
+    chatCxt.update(chatCxt.current === Status.CLOSE ? chatCxt.current = Status.OPEN : chatCxt.current = Status.CLOSE)
     console.log(chatCxt.current)
   };
 
@@ -16,8 +16,8 @@ export const ChatSlider = () => {
     <div className="spa" id="spa">
       <div
         onClick={toggleChatSlider}
-        className={`spa-slider ${chatCxt.current === Status.OPEN ? "isOpen" : ""}`}
-        title={chatCxt.current === Status.OPEN ? "Click to extend" : ""}>
+        className={`spa-slider ${chatCxt.current === Status.CLOSE ? "isOpen" : ""}`}
+        title={chatCxt.current === Status.CLOSE ? "Click to extend" : ""}>
         <p>hello world</p>
       </div>
     </div>
