@@ -16,7 +16,7 @@ export const Chat = () => {
       <ChatMain/>
       <ChatSlider/>
       <ChatFooter/>
-      <ChatModal></ChatModal>
+      <ChatModal/>
     </div>
   );
 };
